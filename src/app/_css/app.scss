@@ -48,7 +48,7 @@ body {
   font-family: var(--font-jost);  //adjusted [Folder Structure]
   margin: 0;
   padding: 0; //added [Folder Structure]
-  color: var(--color-white-500); //adjusted [Folder Structure]
+  color: var(--color-dark-500); //adjusted [Folder Structure]
 
   display: flex; //added [Folder Structure] 
   flex-flow: column;  //added [Folder Structure]
@@ -59,12 +59,12 @@ body {
 }
 
 ::selection {
-  background: var(--color-white-500); //adjusted [Folder Structure]
+  background: var(--color-dark-500); //adjusted [Folder Structure]
   color: var(--color-base-800);
 }
 
 ::-moz-selection {
-  background: var(--color-white-50); //adjusted [Folder Structure]
+  background: var(--color-dark-50); //adjusted [Folder Structure]
   color: var(--color-base-800);
 }
 
@@ -114,7 +114,7 @@ ol {  //adjusted all [Folder Structure]
 }
 
 a {
-  color: var(--color-white-500); //adjusted [Folder Structure]
+  color: var(--color-dark-500); //adjusted [Folder Structure]
 
   &:focus {
     opacity: .8;
