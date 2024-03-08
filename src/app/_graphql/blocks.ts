@@ -1,7 +1,7 @@
-import { CATEGORIES } from './categories'
 import { LINK_FIELDS } from './link'
 import { MEDIA } from './media'
 import { META } from './meta'
+import { PRODUCT_CATEGORIES } from './categories'
 
 export const CALL_TO_ACTION = `
 ...on Cta {
@@ -42,7 +42,7 @@ export const ARCHIVE_BLOCK = `
   introContent
   populateBy
   relationTo
-  ${CATEGORIES}
+  ${PRODUCT_CATEGORIES}
   limit
   selectedDocs {
     relationTo
@@ -64,7 +64,7 @@ export const ARCHIVE_BLOCK = `
         slug
         title
         priceJSON
-        ${CATEGORIES}
+        ${PRODUCT_CATEGORIES}
         ${META}
       }
     }
